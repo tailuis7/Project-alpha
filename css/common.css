@@ -1,0 +1,27 @@
+/* ========================================================================== */
+/* ============= STYLE FOR REGULAR SITES'S ELEMENTS  ======================== */
+/* ========================================================================== */
+
+body, h1,h2,h3,h4,h5,h6,p,a{
+      font-family: Arial, sans-serif, Open Sans;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:focus{
+	text-decoration: none;
+	outline: none;
+}
+
+.container{
+	width: 960px;
+	max-width: 100%;
+}
+
+input, textarea{
+	border-radius: 0px !important;
+}
+textarea{
+	resize: none;
+}
