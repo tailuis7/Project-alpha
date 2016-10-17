@@ -15,8 +15,7 @@ a:focus{
 }
 
 .container{
-	width: 960px;
-	max-width: 100%;
+	max-width: 1170px;
 }
 
 input, textarea{
