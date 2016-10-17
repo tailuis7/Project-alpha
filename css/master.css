@@ -66,6 +66,11 @@ header .navbar-default .navbar-toggle:hover {
     border-color: #f55e25;
 }
 
+header .navbar-default .navbar-toggle:focus {
+    background: none;
+    border-color: #ffffff;
+}
+
 header .navbar-default .navbar-toggle:hover .icon-bar {
     background-color: #f55e25;
 }
