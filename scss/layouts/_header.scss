@@ -66,14 +66,15 @@ header {
                         color: #f55e25;
                         border-top: 2px solid;
                         border-color: #f55e25;
+                        text-shadow: none;
                     }
                     a {
-                        font-size: 12px;
+                        font-size: 14px;
                         line-height: 18px;
                         text-transform: uppercase;
                         font-weight: 400;
                         color: #b6b6b6;
-                        padding: 30px 10px 30px 10px;
+                        padding: 30px 12px;
                         margin: 0;
                         border-top: 2px solid #2e2e2e;
                         -webkit-transition: all 0.3s ease-in-out;

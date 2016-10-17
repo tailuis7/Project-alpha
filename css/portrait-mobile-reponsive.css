@@ -1,7 +1,51 @@
 /* ========================================================================== */
+
+
 /* ============= REPONSIVE CODE FOR PORTRAIT MOBILE ========================= */
+
+
 /* ========================================================================== */
 
 @media only screen and (min-width: 100px) and (max-width: 479px) {
-	
+    /***
+   	* Fix menu header
+   	*/
+    header .navbar-default .navbar-header {
+        float: right;
+        width: 100%;
+        padding: 26px 20px 26px 0;
+    }
+    header .navbar-default .navbar-header .navbar-brand {
+        float: none;
+        margin: 0;
+    }
+    header .navbar-default .navbar-collapse {
+        border-top: none;
+        float: none;
+        width: 100%;
+        box-shadow: none;
+        margin: 0;
+        padding: 0 30px 0 30px;
+    }
+    header .navbar-default .navbar-collapse .navbar-right {
+        float: left;
+        margin: 0 0 0 -18px;
+        padding: 10px 0 30px 0;
+    }
+    header .navbar-default .collapse li {
+        width: 100%;
+    }
+    header .navbar-default .collapse .navbar-nav li a {
+    	font-size: 12px;
+        padding: 10px 20px;
+        margin: 5px 2px 5px 2px;
+        border-radius: 2px;
+        border: 1px solid #8b8b95;
+    }
+    header .navbar-default .collapse .navbar-nav li a.selected,
+    header .navbar-default .collapse .navbar-nav li a:hover {
+        background: #f55e25;
+        border: 1px solid #f55e25;
+        color: #fff;
+    }
 }
