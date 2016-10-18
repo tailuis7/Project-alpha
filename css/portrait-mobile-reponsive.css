@@ -32,18 +32,18 @@
         margin: 0 0 0 -18px;
         padding: 10px 0 30px 0;
     }
-    header .navbar-default .collapse li {
+    header .navbar-default li {
         width: 100%;
     }
-    header .navbar-default .collapse .navbar-nav li a {
+    header .navbar-default .navbar-nav li a {
     	font-size: 12px;
         padding: 10px 20px;
         margin: 5px 2px 5px 2px;
         border-radius: 2px;
         border: 1px solid #8b8b95;
     }
-    header .navbar-default .collapse .navbar-nav li a.selected,
-    header .navbar-default .collapse .navbar-nav li a:hover {
+    header .navbar-default .navbar-nav li a.selected,
+    header .navbar-default .navbar-nav li a:hover {
         background: #f55e25;
         border: 1px solid #f55e25;
         color: #fff;

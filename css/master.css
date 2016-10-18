@@ -86,15 +86,15 @@ header .navbar-default .collapse {
     border: none;
 }
 
-header .navbar-default .collapse .navbar-nav li a.selected,
-header .navbar-default .collapse .navbar-nav li a:hover {
+header .navbar-default .navbar-nav li a.selected,
+header .navbar-default .navbar-nav li a:hover {
     color: #f55e25;
     border-top: 2px solid;
     border-color: #f55e25;
     text-shadow: none;
 }
 
-header .navbar-default .collapse .navbar-nav li a {
+header .navbar-default .navbar-nav li a {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
