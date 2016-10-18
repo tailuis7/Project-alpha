@@ -36,4 +36,10 @@
     header .navbar-default .collapse .navbar-right .btn {
         font-size: 12px;
     }
+    /***
+    * Fix footer - quick links
+    */
+    footer .section-main-footer .connect-us ul li {
+        float: none;
+    }
 }

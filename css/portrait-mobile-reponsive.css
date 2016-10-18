@@ -8,8 +8,8 @@
 
 @media only screen and (min-width: 100px) and (max-width: 479px) {
     /***
-   	* Fix menu header
-   	*/
+    * Fix menu header
+    */
     header .navbar-default .navbar-header {
         float: right;
         width: 100%;
@@ -36,7 +36,7 @@
         width: 100%;
     }
     header .navbar-default .navbar-nav li a {
-    	font-size: 12px;
+        font-size: 12px;
         padding: 10px 20px;
         margin: 5px 2px 5px 2px;
         border-radius: 2px;
@@ -48,4 +48,15 @@
         border: 1px solid #f55e25;
         color: #fff;
     }
+    /***
+    * Fix footer - quick links
+    */
+    footer .section-main-footer .connect-us ul li {
+        float: none;
+    }
+    /***
+    * Fix bottom footer
+    */
+    footer .section-bottom-footer p {
+    text-align: center;
 }

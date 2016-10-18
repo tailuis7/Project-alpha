@@ -1,7 +1,16 @@
 /* ========================================================================== */
+
+
 /* ============= REPONSIVE CODE FOR LANDSCAPE TABLET ======================== */
+
+
 /* ========================================================================== */
 
 @media only screen and (min-width: 960px) and (max-width: 1240px) {
-	
+	/***
+   	* Fix footer - quick links
+   	*/
+    footer .section-main-footer .connect-us ul li {
+        float: none;
+    }
 }
