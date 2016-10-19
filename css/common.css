@@ -2,8 +2,13 @@
 /* ============= STYLE FOR REGULAR SITES'S ELEMENTS  ======================== */
 /* ========================================================================== */
 
+@font-face {
+    font-family: 'fontSegoe';
+    src: url('../fonts/segoeui.ttf');
+}
+
 body, h1,h2,h3,h4,h5,h6,p,a{
-      font-family: Arial, sans-serif, Open Sans;
+      font-family: 'fontSegoe', sans-serif, Open Sans;
 }
 
 a:hover{

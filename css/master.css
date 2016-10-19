@@ -172,6 +172,10 @@ header .navbar-default .collapse .navbar-right .btn-primary:hover {
 
 /* FOOTER */
 
+/* footer {
+    font-family: 'fontSegoe';
+} */
+
 footer .footer-title {
     color: #f36548;
     text-transform: uppercase;
@@ -219,8 +223,9 @@ footer .section-main-footer .quick-links ul li a {
     color: #373737;
 }
 
-footer .section-main-footer .quick-links ul li a:focus {
-    text-decoration: underline;
+footer .section-main-footer .quick-links ul li a:hover,
+.upcoming-events .event-name p:hover {
+    color: #f36548;
 }
 
 footer .section-main-footer .connect-us ul li {
@@ -267,27 +272,40 @@ footer .section-main-footer .connect-us ul li .stumbleupon {
 }
 
 footer .section-main-footer .upcoming-events .event-date {
-    padding: 5px;
+    font-size: 12px;
+    padding: 2px;
     background-color: #ffffff;
+    width: 100px;
+    white-space: nowrap;
 }
 
 footer .section-main-footer .upcoming-events .event-name {
     font-weight: bold;
     color: #000;
-    display: block;
-}
-
-footer .section-main-footer .upcoming-events .event-name:focus {
-    text-decoration: underline;
 }
 
 footer .section-main-footer .upcoming-events .event-name p {
     margin-top: 10px;
+    white-space: nowrap;
 }
 
 footer .section-bottom-footer {
     background: #f36548;
     padding: 15px 0;
+}
+
+footer .section-bottom-footer .container {
+    position: relative;
+}
+
+footer .section-bottom-footer .container .to-top {
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
+
+footer .section-bottom-footer .container .to-top:hover {
+    cursor: pointer;
 }
 
 footer .section-bottom-footer p {
